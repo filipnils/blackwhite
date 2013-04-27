@@ -416,7 +416,106 @@ table {
   border-spacing: 0;
 }
 
-/* line 10, ../sass/screen.scss */
-h1 {
-  color: blue;
+/* line 12, ../sass/screen.scss */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* line 19, ../sass/screen.scss */
+.clearfix {
+  display: inline-block;
+}
+
+/* line 22, ../sass/screen.scss */
+* html .clearfix {
+  height: 1%;
+}
+
+/* Hides from IE-mac \*/
+/* line 25, ../sass/screen.scss */
+.clearfix {
+  display: block;
+}
+
+/* line 30, ../sass/screen.scss */
+.container {
+  width: 75%;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 38, ../sass/screen.scss */
+.header h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  word-spacing: -7px;
+  margin-top: 14px;
+}
+/* line 43, ../sass/screen.scss */
+.header h1 span {
+  font-weight: 300;
+}
+/* line 47, ../sass/screen.scss */
+.header img {
+  float: left;
+  width: 75%;
+}
+/* line 51, ../sass/screen.scss */
+.header .black-box {
+  background-color: black;
+  width: 24%;
+  height: 200px;
+  float: right;
+}
+/* line 57, ../sass/screen.scss */
+.header .header-images {
+  position: relative;
+}
+/* line 60, ../sass/screen.scss */
+.header .header-images h2 {
+  position: absolute;
+  color: white;
+  font-weight: 300;
+}
+/* line 65, ../sass/screen.scss */
+.header .header-images h2 .text-part {
+  display: block;
+  margin-top: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 5px;
+}
+
+/* line 75, ../sass/screen.scss */
+.nav {
+  position: absolute;
+  right: 0;
+  top: -3px;
+}
+/* line 79, ../sass/screen.scss */
+.nav li {
+  display: inline;
+  margin-left: 1em;
+}
+/* line 82, ../sass/screen.scss */
+.nav li a {
+  text-decoration: none;
+  color: #676e73;
+  font-size: 0.8em;
+}
+/* line 87, ../sass/screen.scss */
+.nav li a:visited {
+  color: #14659d;
+}
+/* line 91, ../sass/screen.scss */
+.nav li a:hover {
+  text-decoration: underline;
+}
+
+/* line 100, ../sass/screen.scss */
+.main-content .textbox {
+  width: 37.5%;
+  float: left;
 }
