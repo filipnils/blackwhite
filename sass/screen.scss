@@ -28,12 +28,14 @@ $text-grey: #676e73;
 
 //CSS
 .container {
-	width: 75%;
+	width: 960px;
+	max-width: 100%;
 	margin: 0 auto;
 	position: relative;
 }
 
 .header {
+	max-width: 100%;
 
 	h1 {
 		font-family: Helvetica, Arial, sans-serif;
@@ -51,8 +53,19 @@ $text-grey: #676e73;
 	.black-box {
 		background-color: black;
 		width: 24%;
-		height: 200px;
+		height: 278px;
 		float: right;
+
+		background: #303030; /* Old browsers */
+		background: -moz-radial-gradient(center, ellipse cover,  #303030 4%, #131313 100%); /* FF3.6+ */
+		background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(4%,#303030), color-stop(100%,#131313)); /* Chrome,Safari4+ */
+		background: -webkit-radial-gradient(center, ellipse cover,  #303030 4%,#131313 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-radial-gradient(center, ellipse cover,  #303030 4%,#131313 100%); /* Opera 12+ */
+		background: -ms-radial-gradient(center, ellipse cover,  #303030 4%,#131313 100%); /* IE10+ */
+		background: radial-gradient(ellipse at center,  #303030 4%,#131313 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#303030', endColorstr='#131313',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
 	}
 	.header-images {
 		position: relative;
@@ -61,12 +74,17 @@ $text-grey: #676e73;
 			position: absolute;
 			color: white;
 			font-weight: 300;
+			margin-top: 4.6em;
+			margin-left: 15px;
+			-webkit-font-smoothing: antialiased;
+			font-size: 1.8em;
 			
 			.text-part {
 				display: block;
-				margin-top: 5px;
-				background-color: rgba(0, 0, 0, 0.7);
-				padding: 5px;
+				margin-top: 4px;
+				background-color: rgb(0,0,0);
+				background-color: rgba(0, 0, 0, 0.6);
+				padding: 4px;
 			}
 		}
 	}
@@ -100,5 +118,15 @@ $text-grey: #676e73;
 	.textbox {
 		width: 37.5%;
 		float: left;
+	}
+
+	.main-quote {
+
+	}
+}
+
+.footer {
+	span {
+		width: 100%;
 	}
 }
