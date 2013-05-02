@@ -449,26 +449,22 @@ table {
   position: relative;
 }
 
-/* line 37, ../sass/screen.scss */
-.header {
-  max-width: 100%;
-}
-/* line 40, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 .header h1 {
   font-family: Helvetica, Arial, sans-serif;
   word-spacing: -7px;
   margin-top: 14px;
 }
-/* line 45, ../sass/screen.scss */
+/* line 44, ../sass/screen.scss */
 .header h1 span {
   font-weight: 300;
 }
-/* line 49, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 .header img {
   float: left;
   width: 75%;
 }
-/* line 53, ../sass/screen.scss */
+/* line 52, ../sass/screen.scss */
 .header .black-box {
   background-color: black;
   width: 24%;
@@ -491,11 +487,11 @@ table {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#303030', endColorstr='#131313',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */
 }
-/* line 70, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 .header .header-images {
   position: relative;
 }
-/* line 73, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 .header .header-images h2 {
   position: absolute;
   color: white;
@@ -505,7 +501,7 @@ table {
   -webkit-font-smoothing: antialiased;
   font-size: 1.8em;
 }
-/* line 82, ../sass/screen.scss */
+/* line 81, ../sass/screen.scss */
 .header .header-images h2 .text-part {
   display: block;
   margin-top: 4px;
@@ -514,39 +510,60 @@ table {
   padding: 4px;
 }
 
-/* line 93, ../sass/screen.scss */
+/* line 92, ../sass/screen.scss */
 .nav {
   position: absolute;
   right: 0;
   top: -3px;
 }
-/* line 97, ../sass/screen.scss */
+/* line 96, ../sass/screen.scss */
 .nav li {
   display: inline;
   margin-left: 1em;
 }
-/* line 100, ../sass/screen.scss */
+/* line 99, ../sass/screen.scss */
 .nav li a {
   text-decoration: none;
-  color: #676e73;
+  color: #424648;
   font-size: 0.8em;
 }
-/* line 105, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 .nav li a:visited {
   color: #14659d;
 }
-/* line 109, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 .nav li a:hover {
   text-decoration: underline;
 }
 
-/* line 118, ../sass/screen.scss */
+/* line 119, ../sass/screen.scss */
 .main-content .textbox {
   width: 37.5%;
   float: left;
 }
+/* line 124, ../sass/screen.scss */
+.main-content .textbox h3 {
+  font-weight: 300;
+  font-size: 1.8em;
+  margin: 3px 0 22px 0;
+}
+/* line 130, ../sass/screen.scss */
+.main-content .textbox hr {
+  width: 331px;
+  margin-left: 0;
+  border-top: 1px solid;
+  background-color: #fff;
+  color: #898b8d;
+}
+/* line 138, ../sass/screen.scss */
+.main-content .textbox p {
+  color: #424648;
+  font-size: 0.8em;
+  padding-right: 30px;
+  line-height: 1.6em;
+}
 
-/* line 129, ../sass/screen.scss */
+/* line 152, ../sass/screen.scss */
 .footer span {
   width: 100%;
 }

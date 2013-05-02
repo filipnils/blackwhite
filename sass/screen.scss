@@ -6,7 +6,7 @@
 @import "normalize.scss";
 
 //Variables
-$text-grey: #676e73;
+$text-grey: #424648;
 
 //Clearfix
 .clearfix:after { 
@@ -35,7 +35,6 @@ $text-grey: #676e73;
 }
 
 .header {
-	max-width: 100%;
 
 	h1 {
 		font-family: Helvetica, Arial, sans-serif;
@@ -115,9 +114,33 @@ $text-grey: #676e73;
 }
 
 .main-content {
+	
+
 	.textbox {
 		width: 37.5%;
 		float: left;
+
+
+		h3 {
+			font-weight: 300;
+			font-size: 1.8em;
+			margin: 3px 0 22px 0;
+		}
+
+		hr {
+			width: 331px;
+			margin-left: 0;
+			border-top: 1px solid;
+			background-color: #fff;
+			color: #898b8d;
+		}
+
+		p {
+			color: $text-grey;
+			font-size: 0.8em;
+			padding-right: 30px;
+			line-height: 1.6em;
+		}
 	}
 
 	.main-quote {
