@@ -562,8 +562,34 @@ table {
   padding-right: 30px;
   line-height: 1.6em;
 }
+/* line 146, ../sass/screen.scss */
+.main-content .main-quote {
+  margin-left: 733px;
+}
+/* line 150, ../sass/screen.scss */
+.main-content:before {
+  content: '"';
+}
+/* line 154, ../sass/screen.scss */
+.main-content:after {
+  content: '"';
+}
 
-/* line 152, ../sass/screen.scss */
+/* line 159, ../sass/screen.scss */
+.blk-btn {
+  background-color: #000;
+  color: #FFF;
+  border: none;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  padding: 6px;
+}
+/* line 167, ../sass/screen.scss */
+.blk-btn:hover {
+  text-decoration: underline;
+}
+
+/* line 173, ../sass/screen.scss */
 .footer span {
   width: 100%;
 }

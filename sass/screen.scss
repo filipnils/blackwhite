@@ -144,7 +144,28 @@ $text-grey: #424648;
 	}
 
 	.main-quote {
+		margin-left: 733px;
+	}
 
+	&:before {
+		content: '"';
+	}
+
+	&:after {
+		content: '"';
+	}
+}
+
+.blk-btn {
+	background-color: #000;
+	color: #FFF;
+	border: none;
+	font-size: 0.7em;
+	text-transform: uppercase;
+	padding: 6px;
+
+	&:hover {
+		text-decoration: underline;
 	}
 }
 
