@@ -144,15 +144,8 @@ $text-grey: #424648;
 	}
 
 	.main-quote {
-		margin-left: 733px;
-	}
-
-	&:before {
-		content: '"';
-	}
-
-	&:after {
-		content: '"';
+		width: 25%;
+		float: left;
 	}
 }
 
